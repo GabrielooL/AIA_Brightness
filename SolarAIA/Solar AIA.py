@@ -37,7 +37,7 @@ import trackpy as tp
 from numpy import sqrt  
 
 
-List_2 = glob.glob(r'C:\Users\14242\2022 Summer Internship\Milo Bigger data part 2\*')
+List_2 = glob.glob(r'C:\Users\14242\2022 Summer Internship\Milos bigger data for the sun\*')
 
 
 data_average = [] #Averages subtracted data
@@ -89,6 +89,7 @@ for i in range(len(t2)):
   
         
 fra = max(t2.iloc[iloc_valid]['frame']) + 1
+
 
 Bull=[]
 for i in range(fra): 
